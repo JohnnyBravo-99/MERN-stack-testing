@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-express-mongodb",
+  "version": "1.0.0",
+  "description": "Node.JS Restful CRUD API with Node.js, express and MongoDB",
+  "main": "(index.js) server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "author": "author Jay Gatsby",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.10.0"
+  }
+}
