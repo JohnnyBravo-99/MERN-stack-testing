@@ -6,20 +6,18 @@ const app = express();
 
 const db = require("./app/models");
 db.mongoose
-    .connect(db.url, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-    })
+    .connect(db.url)
     .then(() => {
         console.log("connected the the databse!");
     })
     .catch(err => {
-        consolelog("Cannot connect to the databse!", err);
+        console.error("Cannot connect to the databse!", err);
         process.exit();
     });
 
-var corsOptions = {
-    origin: "http://localhost:8081"
+const corsOptions = {
+    origin: "http://localhost:3000",
+    optionsSuccessStatus: 200,
 };
 
 app.use(cors(corsOptions));
@@ -31,14 +29,18 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 //simple route
-app.get("/", (req, res) => {
+app.get("api/tutorials", (req, res) => {
 
     res.json({ message: "Welcome to my application!" });
 });
+
+require("./app/routes/tutorial.routes")(app);
 
     const PORT = process.env.PORT || 8082;
     app.listen(PORT, () => {
         console.log(`Server is running on port ${PORT}.`);
     });
+
+
 
 

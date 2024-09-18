@@ -1,51 +1,101 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import TutorialDataService from "../services/tutorial.service";
 
-export default class AddTutorial extends component {
-    constructor(props) {
-        super(props)
-        this.onChangeTitle = this.onChangeTitle.bind(this);
-        this.onChangeDescription = this.onChangeDescription.bind(this);
-        this.saveTutorial = this.saveTutorial.bind(this);
-        this.newTutorial = this.newTutorial.bind(this);
+const AddTutorial = () => {
 
-        this.state = {
-            id: null,
-            title: "",
-            description: "",
-            published: false,
+const [title, setTitle] = useState("");
+const [description, setDescription] = useState("");
+const [published, setPublished] = useState(false);
+const [submitted, setSubmitted] = useState(false);
 
-            submitted: false
-        };
-    }
+const onChangeTitle = (e) => {
+    const title = e.target.value;
+    setTitle(title);
+};
 
-    onChangeTitle(e) {
-        this.setState({ title: e.target.value });
-    }
+const onChangeDescription = (e) => {
+    const description = e.target.value;
+    setDescription(description);
+};
 
-    onChangeDescription(e) {
-        this.setState({ description: e.target.value });
-    }
+const saveTutorial = () => {
+
+    const data = {
+        title: title,
+        description: description,
+        published: published
+    };
 
     TutorialDataService.create(data)
-    .then(response => {
-        this.setState({
-            id: response.data.id,
-            title: response.data.title,
-            description: response.data.description,
-            published: response.data.published,
+        .then((response) => {
 
-            submitted: true
+
+            setTitle(response.data.title);
+            setDescription(response.data.description);
+            setPublished(response.data.published);
+            setSubmitted(true);
+            console.log(response.data);
+
+        })
+        .catch((e) => {
+            console.log(e);
         });
-console.log(response.data);
-})
+};
 
-.catch (e => {
-    console.log(e);
-});
-}
+const newTutorial = () => {
+    setTitle("");
+    setDescription("");
+    setPublished(false);
+    setSubmitted(false);
+};
 
-render(){
 
-}
-}
+return (
+
+    <div className="submit-form">
+        {submitted ? (
+            <div>
+                <h4>Success!</h4>
+                <button className="btn btn-success" onClick={newTutorial}>
+                    Add
+                </button>
+            </div>
+
+        ) : (
+            <div>
+                <div className="form-group">
+                    <label htmlFor="title">Title</label>
+                    <input
+                        type="text"
+                        className="form-control"
+                        id="title"
+                        required
+                        value={title}
+                        onChange={onChangeTitle}
+                        name="title"
+                    />
+                </div>
+
+                <div className="form-group">
+                    <label htmlFor="description">Description</label>
+                    <input
+                        type="text"
+                        className="form-control"
+                        id="description"
+                        required
+                        value={description}
+                        onChange={onChangeDescription}
+                        name="description"
+                    />
+                </div>
+
+                <button onClick={saveTutorial} className="btn btn-success">
+                    Submit
+                </button>
+            </div>
+        )}
+    </div>
+)};
+;
+
+export default AddTutorial;
