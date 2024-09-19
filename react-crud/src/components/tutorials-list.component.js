@@ -43,7 +43,7 @@ const Tutorialslist = () => {
     const removeAllTutorials = () => {
         tutorialDataService.removeAll()
             .then(response => {
-                console.log(response.data);
+                console.log(response.data.data);
                 refreshList();
             })
             .catch(e => {
@@ -55,7 +55,7 @@ const Tutorialslist = () => {
         tutorialDataService.findByTitle(searchTitle)
             .then(response => {
                 setTutorials(response.data.data);
-                console.log(response.data);
+                console.log(response.data.data);
             })
             .catch(e => {
                 console.log(e);

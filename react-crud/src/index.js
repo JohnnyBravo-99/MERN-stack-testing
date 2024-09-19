@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import ErrorBoundary from "./services/error-boundary.js";
 
 import App from './App';
-import tutorialDataService from './services/tutorial.service';
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
