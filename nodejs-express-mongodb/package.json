@@ -4,7 +4,10 @@
   "description": "Node.JS Restful CRUD API with Node.js, express and MongoDB",
   "main": "(index.js) server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "lint": "eslint ."
   },
   "keywords": [
     "nodejs",
@@ -13,6 +16,11 @@
     "rest",
     "api"
   ],
+  "engines": {
+    "node": "18.x"
+  },
+
+
   "author": "author Jay Gatsby",
   "license": "ISC",
   "dependencies": {

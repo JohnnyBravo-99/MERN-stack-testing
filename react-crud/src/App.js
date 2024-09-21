@@ -1,6 +1,7 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.css';
+import { useEffect } from "react";
 
 import './App.css';
 
@@ -8,7 +9,12 @@ import AddTutorial from "./components/add-tutorial.component.js";
 import Tutorial from "./components/tutorial.component.js";
 import TutorialsList from "./components/tutorials-list.component.js";
 
+
+
 function App() {
+
+
+
 
     return (
 

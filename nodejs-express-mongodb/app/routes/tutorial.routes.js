@@ -1,13 +1,19 @@
 module.exports = app => {
     const tutorials = require("../controllers/tutorial.controller.js");
 
-    var router = require("express").Router();
+    let router = require("express").Router();
+
+
 
     // Create a new Tutorial
-    router.post("/", tutorials.create);
+    router.post("/", (req, res, next) => {
+        console.log("Incoming request:", req.body); // Log the incoming request
+        next(); // Call the next middleware
+    }, tutorials.create);
 
     // Retrieve all Tutorials
     router.get("/", tutorials.findAll);
+    
 
     // Retrieve all published Tutorials
     router.get("/published", tutorials.findAllPublished);

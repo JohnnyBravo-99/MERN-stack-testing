@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import tutorialDataService from "../services/tutorial.service";
+import tutorialDataService from "../services/tutorial.service.js";
 import { Link } from "react-router-dom";
 
-const Tutorialslist = () => {
+const TutorialsList = () => {
 
     const [tutorials, setTutorials] = useState([]);
     const [currentTutorial, setCurrentTutorial] = useState(null);
@@ -18,11 +18,14 @@ const Tutorialslist = () => {
         setSearchTitle(searchTitle);
     };
 
-    const retrieveTutorials = () => {
+    const retrieveTutorials = (tutorials) => {
         tutorialDataService.getAll()
+        
             .then(response => {
-                setTutorials(response.data.data);
-                console.log(response.data.data);
+                console.log("Response data is: ", );
+
+                setTutorials(response.data);
+                
             })
             .catch(e => {
                 console.log(e);
@@ -43,7 +46,7 @@ const Tutorialslist = () => {
     const removeAllTutorials = () => {
         tutorialDataService.removeAll()
             .then(response => {
-                console.log(response.data.data);
+                console.log(response.data);
                 refreshList();
             })
             .catch(e => {
@@ -54,8 +57,8 @@ const Tutorialslist = () => {
     const findByTitle = () => {
         tutorialDataService.findByTitle(searchTitle)
             .then(response => {
-                setTutorials(response.data.data);
-                console.log(response.data.data);
+                setTutorials(response.data);
+                console.log(response.data);
             })
             .catch(e => {
                 console.log(e);
@@ -90,7 +93,7 @@ const Tutorialslist = () => {
 
                 <ul className="list-group">
                     {tutorials &&
-                        tutorials.map(([tutorial, index]) => (
+                        tutorials.map((tutorial, index) => (
                             <li className={
                                 "list-group-item " + (index === currentIndex ? "active" : "")
                             }
@@ -153,4 +156,4 @@ const Tutorialslist = () => {
     );
 };
                 
-export default Tutorialslist;
+export default TutorialsList;
