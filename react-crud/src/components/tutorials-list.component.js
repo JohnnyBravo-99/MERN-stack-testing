@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import tutorialDataService from "../services/tutorial.service.js";
+import TutorialDataService from "../services/tutorial.service.js";
 import { Link } from "react-router-dom";
 
 const TutorialsList = () => {
@@ -18,13 +18,14 @@ const TutorialsList = () => {
         setSearchTitle(searchTitle);
     };
 
-    const retrieveTutorials = (tutorials) => {
-        tutorialDataService.getAll()
+    const retrieveTutorials = () => {
+        TutorialDataService.getAll()
         
-            .then(response => {
-                console.log("Response data is: ", );
+            .then(tutorials => {
+                console.log("Response data is: ", tutorials);
 
-                setTutorials(response.data);
+                setTutorials(tutorials);
+
                 
             })
             .catch(e => {
@@ -44,7 +45,7 @@ const TutorialsList = () => {
     };
 
     const removeAllTutorials = () => {
-        tutorialDataService.removeAll()
+        TutorialDataService.removeAll()
             .then(response => {
                 console.log(response.data);
                 refreshList();
@@ -55,13 +56,22 @@ const TutorialsList = () => {
     };
 
     const findByTitle = () => {
-        tutorialDataService.findByTitle(searchTitle)
+        if(!searchTitle) {
+            refreshList();
+            return;
+        }else {
+        TutorialDataService.findByTitle(searchTitle)
             .then(response => {
-                setTutorials(response.data);
-                console.log(response.data);
+                if (response) {
+                    setTutorials([response]); // Set the tutorials state to an array containing the single tutorial
+                    console.log("Found tutorial: ", response);
+                } else {
+                    setTutorials([]); // Reset to an empty array if no tutorial is found
+                }
             })
             .catch(e => {
                 console.log(e);
+                setTutorials([]); // Reset tutorials to an empty array on error
             });
     };
 
@@ -154,6 +164,7 @@ const TutorialsList = () => {
             </div>
         </div>
     );
+};
 };
                 
 export default TutorialsList;

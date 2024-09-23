@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from 'react-router-dom';
-import tutorialDataService from "../services/tutorial.service";
+import TutorialDataService from "../services/tutorial.service";
 
 const Tutorial = props => {
     const { id } = useParams();
@@ -17,10 +17,10 @@ const Tutorial = props => {
     const [message, setMessage] = useState("");
 
     const getTutorial = id => {
-        tutorialDataService.get(id)
-            .then(response => {
-                setCurrentTutorial(response.data);
-                console.log(response.data);
+        TutorialDataService.get(id)
+            .then(tutorial => {
+                setCurrentTutorial(tutorial);
+                console.log(tutorial);
             })
             .catch(e => {
                 console.log(e);
@@ -45,7 +45,7 @@ const Tutorial = props => {
             published: status
         };
 
-        tutorialDataService.update(currentTutorial.id, data)
+        TutorialDataService.update(currentTutorial.id, data)
             .then(response => {
                 setCurrentTutorial({ ...currentTutorial, published: status });
                 console.log(response.data)
@@ -56,7 +56,7 @@ const Tutorial = props => {
     };
 
     const updateTutorial = () => {
-        tutorialDataService.update(currentTutorial.id, currentTutorial)
+        TutorialDataService.update(currentTutorial.id, currentTutorial)
             .then(response => {
                 console.log(response.data);
                 setMessage("The tutorial was updated successfully!");
@@ -67,7 +67,7 @@ const Tutorial = props => {
     };
 
     const deleteTutorial = () => {
-        tutorialDataService.remove(currentTutorial.id)
+        TutorialDataService.remove(currentTutorial.id)
             .then(response => {
                 console.log(response.data);
                 navigate("/tutorials");

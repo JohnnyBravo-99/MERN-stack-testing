@@ -11,7 +11,7 @@ const db = require("./app/models");
 db.mongoose
     .connect(db.url)
     .then(() => {
-        console.log("connected the the databse!");
+        console.log("connected the the database!");
     })
     .catch(err => {
         console.error("Cannot connect to the databse!", err);
@@ -36,8 +36,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 //simple route
-app.get("/api/tutorials", (req, res) => {
+app.get("/", (req, res) => {
      // Adjust the path as necessary
+    
 })
 
 require("./app/routes/tutorial.routes.js")(app);

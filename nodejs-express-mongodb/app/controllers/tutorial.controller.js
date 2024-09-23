@@ -14,12 +14,14 @@ exports.create = (req, res) => {
         description: req.body.description,
         published: req.body.published ||  false
     });
-    console.log("tutorial: ", tutorial);
+    
     // Save Tutorial in the database
     tutorial
-        .save(tutorial)
+        .save()
         .then(data => {
+            
             res.send(data);
+            
         })
         .catch(err => {
             res.status(500).send({
@@ -34,7 +36,13 @@ exports.findAll = (req, res) => {
 
     Tutorial.find({})
         .then(data => {
-            res.send(data);
+            
+            if (!data) {
+                res.status(404).send({message: "No tutorials found, Tutorial.find({}) returned " + data });
+            }else {
+                
+                res.send(data);
+            }
         })
         .catch(err => {
             res.status(500).send({
@@ -130,6 +138,25 @@ exports.findAllPublished = (req, res) => {
             res.status(500).send({
                 message:
                     err.message || "Some error occurred while retrieving tutorials."
+            });
+        });
+};
+
+exports.findByTitle = (req, res) => {
+    const title = req.query.title;
+
+    // Use a regex to perform a case-insensitive search
+    Tutorial.find({ title: { $regex: title, $options: "i" } })
+        .then(data => {
+            if (!data || data.length === 0) {
+                return res.status(404).send({ message: "No tutorials found with the title " + title });
+            }
+            console.log("Search results: ", data);
+            res.send(data);
+        })
+        .catch(err => {
+            res.status(500).send({
+                message: err.message || "Some error occurred while retrieving tutorials."
             });
         });
 };

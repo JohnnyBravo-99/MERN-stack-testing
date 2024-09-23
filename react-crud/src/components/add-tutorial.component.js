@@ -29,14 +29,14 @@ const saveTutorial = () => {
 
     TutorialDataService.create(data)
     
-        .then((response) => {
-            console.log("Response data is: ", response.data);
-            const tutorial = response.data;
+        .then((tutorial) => {
+            console.log("Response data is: ", tutorial);
+            
             if (tutorial) {
 
-                setTitle(response.data.title); // Clear title
-                setDescription(response.data.description); // Clear description
-                setPublished(false); // Reset published status
+                setTitle(tutorial.title); // Clear title
+                setDescription(tutorial.description); // Clear description
+                setPublished(tutorial.published); // Reset published status
                 setSubmitted(true); // Set submitted to true
             }
         })
