@@ -56,6 +56,7 @@ const TutorialsList = () => {
     };
 
     const findByTitle = () => {
+        console.log("Search title is: ", searchTitle);
         if(!searchTitle) {
             refreshList();
             return;
@@ -63,7 +64,7 @@ const TutorialsList = () => {
         TutorialDataService.findByTitle(searchTitle)
             .then(response => {
                 if (response) {
-                    setTutorials([response]); // Set the tutorials state to an array containing the single tutorial
+                    setTutorials(response); // Set the tutorials state to an array containing the single tutorial
                     console.log("Found tutorial: ", response);
                 } else {
                     setTutorials([]); // Reset to an empty array if no tutorial is found
@@ -74,6 +75,7 @@ const TutorialsList = () => {
                 setTutorials([]); // Reset tutorials to an empty array on error
             });
     };
+};
 
     return (
         <div className="list row">
@@ -163,8 +165,7 @@ const TutorialsList = () => {
                 )}
             </div>
         </div>
-    );
-};
-};
+        );
+    };
                 
 export default TutorialsList;

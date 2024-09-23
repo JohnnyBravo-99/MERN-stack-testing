@@ -12,7 +12,8 @@ module.exports = app => {
     }, tutorials.create);
 
     // Retrieve all Tutorials
-    router.get("/", tutorials.findAll);
+
+    router.get("/", tutorials.findAll)
     
 
     // Retrieve all published Tutorials
