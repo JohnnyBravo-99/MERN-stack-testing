@@ -19,8 +19,6 @@
   "engines": {
     "node": "18.x"
   },
-
-
   "author": "author Jay Gatsby",
   "license": "ISC",
   "dependencies": {
