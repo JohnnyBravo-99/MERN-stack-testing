@@ -73,16 +73,16 @@ const removeAll = () => {
         });
 };
 
-const findByTitle = async (response) => {
-    return await http.get(`/tutorials?title=${response.data}`)
+const findByTitle = (title) => {
+    console.log("Searching for title:", title); // Debugging line
+    return http.get(`/tutorials?title=${title}`)
         .then(response => {
             console.log("findByTitle: ", response.data);
-            // Ensure response.data is an array
-            return  response.data;
+            return Array.isArray(response.data) ? response.data : [];
         })
         .catch(error => {
-            console.error(`Error finding tutorials by title ${response}: `, error);
-            throw error; // Rethrow the error
+            console.error(`Error finding tutorials by title ${title}: `, error);
+            throw error;
         });
 };
 

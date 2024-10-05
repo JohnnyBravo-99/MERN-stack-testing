@@ -1,0 +1,383 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\app\\models\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nodejs-express-mongodb\\app\\models\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\app\\controllers\\tutorial.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nodejs-express-mongodb\\app\\controllers\\tutorial.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nodejs-express-mongodb\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\services\\tutorial.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:react-crud\\src\\services\\tutorial.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\components\\add-tutorial.component.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:react-crud\\src\\components\\add-tutorial.component.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:react-crud\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\components\\tutorials-list.component.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:react-crud\\src\\components\\tutorials-list.component.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\app\\models\\tutorial.model.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nodejs-express-mongodb\\app\\models\\tutorial.model.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\app\\routes\\tutorial.routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nodejs-express-mongodb\\app\\routes\\tutorial.routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\http-common.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:react-crud\\src\\http-common.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\setupTests.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:react-crud\\src\\setupTests.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:react-crud\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\services\\error-boundary.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:react-crud\\src\\services\\error-boundary.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\components\\tutorial.component.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:react-crud\\src\\components\\tutorial.component.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\App.test.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:react-crud\\src\\App.test.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\common\\with-router.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:react-crud\\src\\common\\with-router.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nodejs-express-mongodb\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nodejs-express-mongodb\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\app\\config\\db.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nodejs-express-mongodb\\app\\config\\db.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:react-crud\\src\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\app.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:react-crud\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "add-tutorial.component.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\components\\add-tutorial.component.js",
+              "RelativeDocumentMoniker": "react-crud\\src\\components\\add-tutorial.component.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\components\\add-tutorial.component.js",
+              "RelativeToolTip": "react-crud\\src\\components\\add-tutorial.component.js",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-13T23:35:05.901Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "setupTests.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\setupTests.js",
+              "RelativeDocumentMoniker": "react-crud\\src\\setupTests.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\setupTests.js",
+              "RelativeToolTip": "react-crud\\src\\setupTests.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-18T19:03:40.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "tutorial.routes.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\app\\routes\\tutorial.routes.js",
+              "RelativeDocumentMoniker": "nodejs-express-mongodb\\app\\routes\\tutorial.routes.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\app\\routes\\tutorial.routes.js",
+              "RelativeToolTip": "nodejs-express-mongodb\\app\\routes\\tutorial.routes.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-18T15:15:26.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.test.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\App.test.js",
+              "RelativeDocumentMoniker": "react-crud\\src\\App.test.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\App.test.js",
+              "RelativeToolTip": "react-crud\\src\\App.test.js",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-18T15:06:39.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\package-lock.json",
+              "RelativeDocumentMoniker": "nodejs-express-mongodb\\package-lock.json",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\package-lock.json",
+              "RelativeToolTip": "nodejs-express-mongodb\\package-lock.json",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-18T15:04:21.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\package.json",
+              "RelativeDocumentMoniker": "nodejs-express-mongodb\\package.json",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\package.json",
+              "RelativeToolTip": "nodejs-express-mongodb\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-18T14:53:16.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "error-boundary.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\services\\error-boundary.js",
+              "RelativeDocumentMoniker": "react-crud\\src\\services\\error-boundary.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\services\\error-boundary.js",
+              "RelativeToolTip": "react-crud\\src\\services\\error-boundary.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-17T14:31:25.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\App.css",
+              "RelativeDocumentMoniker": "react-crud\\src\\App.css",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\App.css",
+              "RelativeToolTip": "react-crud\\src\\App.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-17T12:15:19.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "app.env",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\app.env",
+              "RelativeDocumentMoniker": "app.env",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\app.env",
+              "RelativeToolTip": "app.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-17T12:14:52.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "with-router.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\common\\with-router.js",
+              "RelativeDocumentMoniker": "react-crud\\src\\common\\with-router.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\common\\with-router.js",
+              "RelativeToolTip": "react-crud\\src\\common\\with-router.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-14T19:37:49.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "http-common.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\http-common.js",
+              "RelativeDocumentMoniker": "react-crud\\src\\http-common.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\http-common.js",
+              "RelativeToolTip": "react-crud\\src\\http-common.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-14T10:58:03.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\index.js",
+              "RelativeDocumentMoniker": "react-crud\\src\\index.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\index.js",
+              "RelativeToolTip": "react-crud\\src\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-13T23:42:15.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\App.js",
+              "RelativeDocumentMoniker": "react-crud\\src\\App.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\App.js",
+              "RelativeToolTip": "react-crud\\src\\App.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-13T23:36:50.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tutorial.service.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\services\\tutorial.service.js",
+              "RelativeDocumentMoniker": "react-crud\\src\\services\\tutorial.service.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\services\\tutorial.service.js",
+              "RelativeToolTip": "react-crud\\src\\services\\tutorial.service.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-13T23:36:27.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "tutorials-list.component.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\components\\tutorials-list.component.js",
+              "RelativeDocumentMoniker": "react-crud\\src\\components\\tutorials-list.component.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\components\\tutorials-list.component.js",
+              "RelativeToolTip": "react-crud\\src\\components\\tutorials-list.component.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-13T23:35:43.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "tutorial.component.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\components\\tutorial.component.js",
+              "RelativeDocumentMoniker": "react-crud\\src\\components\\tutorial.component.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\src\\components\\tutorial.component.js",
+              "RelativeToolTip": "react-crud\\src\\components\\tutorial.component.js",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAYwJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-13T23:35:30.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\package.json",
+              "RelativeDocumentMoniker": "react-crud\\package.json",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\react-crud\\package.json",
+              "RelativeToolTip": "react-crud\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-13T23:33:50.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tutorial.controller.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\app\\controllers\\tutorial.controller.js",
+              "RelativeDocumentMoniker": "nodejs-express-mongodb\\app\\controllers\\tutorial.controller.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\app\\controllers\\tutorial.controller.js",
+              "RelativeToolTip": "nodejs-express-mongodb\\app\\controllers\\tutorial.controller.js",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-13T23:10:48.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tutorial.model.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\app\\models\\tutorial.model.js",
+              "RelativeDocumentMoniker": "nodejs-express-mongodb\\app\\models\\tutorial.model.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\app\\models\\tutorial.model.js",
+              "RelativeToolTip": "nodejs-express-mongodb\\app\\models\\tutorial.model.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-13T10:29:07.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\app\\models\\index.js",
+              "RelativeDocumentMoniker": "nodejs-express-mongodb\\app\\models\\index.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\app\\models\\index.js",
+              "RelativeToolTip": "nodejs-express-mongodb\\app\\models\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-13T10:22:47.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "db.config.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\app\\config\\db.config.js",
+              "RelativeDocumentMoniker": "nodejs-express-mongodb\\app\\config\\db.config.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\app\\config\\db.config.js",
+              "RelativeToolTip": "nodejs-express-mongodb\\app\\config\\db.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-13T10:20:52.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "server.js",
+              "DocumentMoniker": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\server.js",
+              "RelativeDocumentMoniker": "nodejs-express-mongodb\\server.js",
+              "ToolTip": "C:\\Users\\jacka\\Dropbox\\Programming\\fullstackDevStudy\\fullStackApplication_001[tutorial]\\nodejs-express-mongodb\\server.js",
+              "RelativeToolTip": "nodejs-express-mongodb\\server.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-09T01:40:33.608Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

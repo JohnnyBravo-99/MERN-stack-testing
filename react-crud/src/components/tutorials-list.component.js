@@ -3,7 +3,6 @@ import TutorialDataService from "../services/tutorial.service.js";
 import { Link } from "react-router-dom";
 
 const TutorialsList = () => {
-
     const [tutorials, setTutorials] = useState([]);
     const [currentTutorial, setCurrentTutorial] = useState(null);
     const [currentIndex, setCurrentIndex] = useState(-1);
@@ -15,18 +14,15 @@ const TutorialsList = () => {
 
     const onChangeSearchTitle = e => {
         const searchTitle = e.target.value;
+        console.log("Search title changed to:", searchTitle); // Debugging line
         setSearchTitle(searchTitle);
     };
 
     const retrieveTutorials = () => {
         TutorialDataService.getAll()
-        
             .then(tutorials => {
                 console.log("Response data is: ", tutorials);
-
                 setTutorials(tutorials);
-
-                
             })
             .catch(e => {
                 console.log(e);
@@ -56,26 +52,22 @@ const TutorialsList = () => {
     };
 
     const findByTitle = () => {
-        console.log("Search title is: ", searchTitle);
-        if(!searchTitle) {
+        console.log("Searching for title:", searchTitle); // Debugging line
+        if (!searchTitle) {
             refreshList();
             return;
-        }else {
+        }
+
         TutorialDataService.findByTitle(searchTitle)
             .then(response => {
-                if (response) {
-                    setTutorials(response); // Set the tutorials state to an array containing the single tutorial
-                    console.log("Found tutorial: ", response);
-                } else {
-                    setTutorials([]); // Reset to an empty array if no tutorial is found
-                }
+                setTutorials(response);
+                console.log("Found tutorials: ", response);
             })
             .catch(e => {
                 console.log(e);
-                setTutorials([]); // Reset tutorials to an empty array on error
+                setTutorials([]);
             });
     };
-};
 
     return (
         <div className="list row">
@@ -104,18 +96,21 @@ const TutorialsList = () => {
                 <h4>Tutorials List</h4>
 
                 <ul className="list-group">
-                    {tutorials &&
+                    {tutorials.length > 0 ? (
                         tutorials.map((tutorial, index) => (
-                            <li className={
-                                "list-group-item " + (index === currentIndex ? "active" : "")
-                            }
+                            <li
+                                className={
+                                    "list-group-item " + (index === currentIndex ? "active" : "")
+                                }
                                 onClick={() => setActiveTutorial(tutorial, index)}
                                 key={index}
                             >
                                 {tutorial.title}
                             </li>
-                        ))}
-
+                        ))
+                    ) : (
+                        <li className="list-group-item">No tutorials found.</li>
+                    )}
                 </ul>
 
                 <button
@@ -157,7 +152,6 @@ const TutorialsList = () => {
                         </Link>
                     </div>
                 ) : (
-
                     <div>
                         <br />
                         <p>Please click on a tutorial...</p>
@@ -165,7 +159,7 @@ const TutorialsList = () => {
                 )}
             </div>
         </div>
-        );
-    };
-                
+    );
+};
+
 export default TutorialsList;

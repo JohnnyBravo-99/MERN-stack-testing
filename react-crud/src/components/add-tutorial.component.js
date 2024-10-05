@@ -96,7 +96,7 @@ return (
                     />
                 </div>
 
-                <button onClick={saveTutorial} className="btn btn-success">
+                <button onClick={saveTutorial} onTouchStart={saveTutorial} className="btn btn-success">
                     Submit
                 </button>
             </div>

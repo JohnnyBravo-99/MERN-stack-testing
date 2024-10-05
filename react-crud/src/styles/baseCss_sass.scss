@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/functions";
+
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/variables-dark";
+
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/root";
+
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/containers"; //classes include: .container, .container-fluid 
+@import "~bootstrap/scss/grid"; //classes include: .row, .col, .col-md-4, .col-lg-6, etc.
+@import "~bootstrap/scss/helpers"; //bootstrap helper classes like .text-center, .bg-primary, .text-white, etc.
+
+@import "~bootstrap/scss/utilities/api"; // Bootstrap API to create custom classes. 

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\nodejs-express-mongodb",
+    "\\nodejs-express-mongodb\\app",
+    "\\nodejs-express-mongodb\\app\\controllers",
+    "\\nodejs-express-mongodb\\app\\models",
+    "\\nodejs-express-mongodb\\app\\routes",
+    "\\react-crud",
+    "\\react-crud\\src",
+    "\\react-crud\\src\\components",
+    "\\react-crud\\src\\services"
+  ],
+  "SelectedNode": "\\react-crud\\package.json",
+  "PreviewInSolutionExplorer": false
+}

@@ -19,6 +19,7 @@
   "engines": {
     "node": "18.x"
   },
+  "type": "module",
 
 
   "author": "author Jay Gatsby",
@@ -27,7 +28,10 @@
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "express": "^4.21.0",
-    "mongoose": "^8.6.1"
+    "mongoose": "^8.6.1",
+    "jsonwebtoken": "^9.0.1",
+    "bcryptjs": "^2.4.3"
+    
   },
   "devDependencies": {
     "eslint": "^9.10.0"

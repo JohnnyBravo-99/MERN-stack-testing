@@ -1,7 +1,8 @@
-const db = require("../models");
-const Tutorial = db.tutorials;
+import { tutorials as _tutorials } from "../models";
+const Tutorial = _tutorials;
 
-exports.create = (req, res) => {
+
+export function create(req, res) {
     // Validate request
     if (!req.body.title) {
         res.status(400).send({ message: "Content can not be empty!" });
@@ -30,29 +31,22 @@ exports.create = (req, res) => {
             });
         });
 
-}; 
-exports.findAll = (req, res) => {
+} 
+export async  function findAll(req, res) {
+    const { title } = req.query;
+    const condition = title ? { title: { $regex: new RegExp(title), $options: "i" } } : {};
 
-
-    Tutorial.find({})
-        .then(data => {
-            
-            if (!data) {
-                res.status(404).send({message: "No tutorials found, Tutorial.find({}) returned " + data });
-            }else {
-                
-                res.send(data);
-            }
-        })
-        .catch(err => {
-            res.status(500).send({
-                message:
-                    err.message || "Some error occurred while retrieving tutorials."
-            });
+    try {
+        const tutorials = await Tutorial.find(condition);
+        res.status(200).send(tutorials);
+    } catch (err) {
+        res.status(500).send({
+            message: err.message || "Some error occurred while retrieving tutorials."
         });
-};
+    }
+}
 
-exports.findOne = (req, res) => {
+export function findOne(req, res) {
     const id = req.params.id;
 
     Tutorial.findById(id)
@@ -66,9 +60,9 @@ exports.findOne = (req, res) => {
                 message: "Error retrieving Tutorial with id=" + id
             });
         });
-};
+}
 
-exports.update = (req, res) => {
+export function update(req, res) {
     if (!req.body) {
         return res.status(400).send({
             message: "Data to update can not be empty!"
@@ -90,9 +84,9 @@ exports.update = (req, res) => {
                 message: "Error updating Tutorial with id=" + id
             });
         });
-};
+}
 
-exports.delete = (req, res) => {
+const _delete = (req, res) => {
     const id = req.params.id;
 
     Tutorial.findByIdAndRemove(id)
@@ -113,8 +107,9 @@ exports.delete = (req, res) => {
             });
         });
 };
+export { _delete as delete };
 
-exports.deleteAll = (req, res) => {
+export function deleteAll(req, res) {
     Tutorial.deleteMany({})
         .then(data => {
             res.send({
@@ -127,9 +122,9 @@ exports.deleteAll = (req, res) => {
                     err.message || "Some error occurred while removing all tutorials."
             });
         });
-};
+}
 
-exports.findAllPublished = (req, res) => {
+export function findAllPublished(req, res) {
     Tutorial.find({ published: true })
         .then(data => {
             res.send(data);
@@ -140,18 +135,25 @@ exports.findAllPublished = (req, res) => {
                     err.message || "Some error occurred while retrieving tutorials."
             });
         });
-};
+}
 
-exports.findByTitle = (req, res) => {
+export function findByTitle(req, res) {
     const title = req.query.title;
+    console.log("Received title:", title); // Debugging line
+
+    if (!title) {
+        console.log("Title is undefined or empty"); // Debugging line
+        return res.status(400).send({ message: "Title query parameter is required." });
+    }
 
     // Use a regex to perform a case-insensitive search
     Tutorial.find({ title: { $regex: title, $options: "i" } })
         .then(data => {
+            console.log("Raw data from database: ", data); // Debugging line
             if (!data || data.length === 0) {
                 return res.status(404).send({ message: "No tutorials found with the title " + title });
             }
-            console.log("Search results: ", data);
+            console.log("Filtered search results: ", data); // Debugging line
             res.send(data);
         })
         .catch(err => {
@@ -159,5 +161,5 @@ exports.findByTitle = (req, res) => {
                 message: err.message || "Some error occurred while retrieving tutorials."
             });
         });
-};
+}
 
